@@ -1,0 +1,24 @@
+/*
+html {
+color: #e0f3ee;
+color: #f4ba9e;
+color: #f9f5f5;
+color: #d6ede9;
+color: #fcfcfb;
+color: #989258;
+color: #c6ad44;
+color: #ebf5f1;
+color: #bab991;
+color: #333;
+}
+*/
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.top-bg-img {
+  background: url(../img/backgroung-image.avif) center center no-repeat;
+  background-size: cover;
+}
