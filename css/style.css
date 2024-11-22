@@ -17,8 +17,22 @@ color: #333;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: #c6ad44;
+  font-size: 3rem !important;
 }
 .top-bg-img {
   background: url(../img/backgroung-image.avif) center center no-repeat;
   background-size: cover;
+}
+.nav-bg {
+  background: rgb(252, 252, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 252, 251, 1) 30%,
+    rgba(198, 173, 68, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.nav-link {
+  color: #141414 !important;
 }
