@@ -36,3 +36,24 @@ color: #333;
 .nav-link {
   color: #141414 !important;
 }
+.hero-text {
+  font-family: "Dancing Script", cursive;
+}
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #141414 !important;
+  font-size: 1.5rem;
+}
+.main-text-hero {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #141414 !important;
+  font-size: 1.8rem !important;
+  margin-bottom: 2rem;
+  border-bottom: solid 1px #989258;
+}
