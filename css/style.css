@@ -61,3 +61,12 @@ color: #333;
   width: 100%;
   height: auto;
 }
+.flavours-section {
+  background-color: #faf3ed;
+}
+.cake-flavours-bg {
+  background-color: #d6ede9;
+}
+.cupcake-flavours-bg {
+  background-color: #ebf5f1;
+}
