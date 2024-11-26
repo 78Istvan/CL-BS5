@@ -2,7 +2,15 @@
 
 Cake baking web desing
 
-<!- text for flavours section cakes->
+## header text
+
+-- 10 years in cake business, <br />delight in every bites
+
+-- Choose your own cake for any occasion! Choose your cake
+size, shape, cream, sponge type, Filling, toppings, strand
+options and customised message.
+
+## <!- text for flavours section cakes->
 
 ## Vanilla
 

@@ -25,6 +25,7 @@ color:#141414
   background: url(../img/backgroung-image.avif) center center no-repeat;
   background-size: cover;
 }
+
 .nav-bg {
   background: rgb(252, 252, 251);
   background: linear-gradient(
@@ -36,6 +37,9 @@ color:#141414
 }
 .nav-link {
   color: #141414 !important;
+}
+.bg-social-icon {
+  color: #989258 !important;
 }
 .hero-text {
   font-family: "Dancing Script", cursive;
