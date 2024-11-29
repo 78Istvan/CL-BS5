@@ -62,8 +62,12 @@ color:#141414
   margin-bottom: 2rem;
   border-bottom: solid 1px #989258;
 }
-.img-flavours {
-  width: 100%;
+.img-hero {
+  width: 30rem;
+  height: auto;
+}
+.img-hero-2 {
+  width: 20rem;
   height: auto;
 }
 .flavours-section {
