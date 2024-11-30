@@ -30,23 +30,23 @@ buttercream or cream cheese
 -- A zingy and moist lemon cake fillet with lemon curd and
 vanilla buttercream or ceram cheese
 
-## Oreo Cream cheese
+## Oreo Cream cheesecream
 
---Chocolate sponge filled with Orea cream cheese
+-- Chocolate sponge filled with Orea cheese
 
 ## Srawberry cream cheese
 
---A light vanilla sponge filled with strawberry jam and
+-- A light vanilla sponge filled with strawberry jam and
 starwberry cream cheese
 
 ## Chocolate ganache
 
---Light cocoa sponge filled with Belgian milk chocolate
+-- Light cocoa sponge filled with Belgian milk chocolate
 ganache
 
 ## White chocolate raspberry
 
---ight vanilla sponge filled with raspberry jam and white
+-- Light vanilla sponge filled with raspberry jam and white
 chocolate cream
 
 ## Black forest gateau
