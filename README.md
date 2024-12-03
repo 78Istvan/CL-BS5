@@ -66,7 +66,6 @@ caramel butter cream
 ## -Belgian chocolate biscuit cake milk or white
 
 --Optional fillings are marshmallows, Maltesers, Lolos, etc.
---Cupcake flovours
 
 ## Cupcake flavours
 
@@ -86,23 +85,23 @@ caramel butter cream
 
 ## Strawberry
 
-\*\*Vanilla cupcake filled with strawberry jam and strawberry cream cheese icing
+\*\* Vanilla cupcake filled with strawberry jam and strawberry cream cheese icing
 
 ## Raspberry
 
-\*\*Vanilla cupcake filled with raspberry jam and raspberry cream cheese icing
+\*\* Vanilla cupcake filled with raspberry jam and raspberry cream cheese icing
 
 ## Oreo
 
-\*\*Chocolate cupcake with Oreo biscuit and Oreo cream cheese
+\*\* Chocolate cupcake with Oreo biscuit and Oreo cream cheese
 
 ## Salted caramel
 
-\*\*Vanilla cupcake with salted caramel filling and salted caramel buttercream on top
+\*\* Vanilla cupcake with salted caramel filling and salted caramel buttercream on top
 
 ## Red velvet
 
-\*\*Red velvet cupcake with cream cheese icing
+\*\* Red velvet cupcake with cream cheese icing
 
 ## Coffee
 
