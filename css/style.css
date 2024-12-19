@@ -149,3 +149,9 @@ body {
   text-transform: uppercase;
 }
 /* testimonial slider end*/
+
+/*footer*/
+
+.footer {
+  padding: 0 !important;
+}
