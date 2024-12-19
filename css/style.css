@@ -155,3 +155,7 @@ body {
 .footer {
   padding: 0 !important;
 }
+.footer-img {
+  height: 11rem;
+  color: #fff;
+}
