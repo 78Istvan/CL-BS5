@@ -13,6 +13,10 @@ color: #333;
 color:#141414 
 }
 */
+body {
+  margin: 0 1rem;
+}
+
 .dancing-script {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -74,7 +78,10 @@ color:#141414
   width: 100%;
   height: 10rem;
 }
-
+.carousel-img {
+  width: 25rem;
+  height: 20rem;
+}
 .cake-flavours-bg {
   background-color: #d6ede9;
 }
@@ -87,3 +94,58 @@ color:#141414
 .col-cupcake-flavour {
   height: 100%;
 }
+/* testimonials section start */
+
+.slick-next:before,
+.slick-prev:before {
+  color: #2d2e2f;
+}
+
+.testimonials_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f5f5;
+}
+
+.slider-container {
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  /* 9.16 / 11.11 / 13.33 */
+  font-size: 11.11px;
+  width: 400px;
+}
+
+.testimonials_headline {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.testimonials_logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.slider_testimonials {
+  display: flex;
+  flex-direction: row;
+  width: 60rem;
+  justify-content: center;
+}
+
+.objects {
+  text-align: center;
+  font-size: 1rem;
+}
+.bg-testimonials {
+  background-color: #f9f5f5;
+}
+.text-start {
+  margin-bottom: 0 !important;
+  text-transform: uppercase;
+}
+/* testimonial slider end*/
