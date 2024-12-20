@@ -1,0 +1,10 @@
+@media (max-width: 990px) {
+  .pinguin-img {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .img-hero {
+    width: 25rem;
+    height: auto;
+  }
+}
