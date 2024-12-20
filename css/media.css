@@ -1,4 +1,4 @@
-@media (max-width: 990px) {
+@media (max-width: 996px) {
   .pinguin-img {
     display: flex !important;
     justify-content: center !important;
@@ -6,5 +6,10 @@
   .img-hero {
     width: 25rem;
     height: auto;
+  }
+}
+@media (max-width: 586px) {
+  .testimonials-text {
+    max-width: 100%;
   }
 }
