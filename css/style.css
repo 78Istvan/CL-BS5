@@ -152,7 +152,10 @@ body {
   text-transform: uppercase;
 }
 /* testimonial slider end*/
-
+/*bottom image */
+.bottom-img {
+  padding: 0 !important;
+}
 /*footer*/
 
 .footer {
