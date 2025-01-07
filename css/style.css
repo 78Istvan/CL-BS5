@@ -88,6 +88,9 @@ body {
 .cupcake-flavours-bg {
   background-color: #ebf5f1;
 }
+.flavours-img {
+  padding: 0 0.25rem;
+}
 .border-bottom-1 {
   border-bottom: 1px solid !important;
 }
