@@ -16,3 +16,10 @@
     max-width: 100%;
   }
 }
+
+@media (max-width: 475px) {
+  .img-hero {
+    max-width: 100%;
+    height: auto;
+  }
+}

@@ -165,3 +165,31 @@ body {
   height: 11rem;
   color: #fff;
 }
+/*modal contct button*/
+.btn:link,
+.btn:visited {
+  
+
+ 
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  padding: 1.6rem 3.2rem !important;
+  border-radius: 9px !important;
+background-color: #989258 !important;
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+.nav-cta {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  padding: 0.6rem 2.2rem !important;
+  border-radius: 9px !important;
+background-color: #989258 !important;
+margin: 1rem 0;
+}
