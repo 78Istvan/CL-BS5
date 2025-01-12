@@ -175,7 +175,7 @@ body {
   font-weight: 600 !important;
   padding: 1.6rem 3.2rem !important;
   border-radius: 9px !important;
-background-color: #989258 !important;
+  background-color: #989258 !important;
   /* Only necessary for .btn */
   border: none;
   cursor: pointer;
@@ -185,6 +185,4 @@ background-color: #989258 !important;
   /* transition: background-color 0.3s; */
   transition: all 0.3s;
 }
-.nav-cta {
-  
-}
+
