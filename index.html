@@ -16,10 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web&display=swap"
       rel="stylesheet"
     />
-
+   
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,48 +50,69 @@
     <!--navbar section-->
     <section class="top-bg-img">
       <nav
-        class="navbar navbar-expand-lg fixes-top navbar-dark bg-secondary nav-bg bg-opacity-75"
+        class="navbar navbar-expand-xl fixes-top  nav-bg bg-opacity-75"
       >
-        <div class="container">
+
+     
+      <div class="container">
+         
+          
           <a href="index.html" class="navbar-brand text-dark"
             ><span class="fw-semibold fs-2 me-4 dancing-script">Cakeland</span>
+          
             <img
               src="img/logo.png"
               alt="cakeland logo"
               width="
       100"
           /></a>
+      
+      </div>
+    
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
           >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+      
+            
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        </div>
+      </div>
+     </div>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item me-4">
+              <li class="nav-item me-4 d-flex align-items-center">
                 <a href="index.html" class="nav-link fs-4 fw-semibold active"
                   >Home</a
                 >
               </li>
-              <li class="nav-item me-4">
+              <li class="nav-item me-4 d-flex align-items-center">
                 <a href="#flavours" class="nav-link fs-4 fw-semibold"
                   >Flavours</a
                 >
               </li>
-              <li class="nav-item me-4">
+              <li class="nav-item me-4 d-flex align-items-center">
                 <a
                   href="#portfolio"
                   class="nav-link fs-4 fw-semibold text-secondary"
                   >Photos</a
                 >
               </li>
-              <li class="nav-item me-4">
+              <li class="nav-item me-4 d-flex align-items-center">
                 <a href="#testimonials" class="nav-link fs-4 fw-semibold"
                   >Testimonials</a
                 >
+              </li>
+              <li>
+                <button type="button" class="btn modal-btn ms-3 me-4 border-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Contact
+                </button>
               </li>
             </ul>
             <span class="nav-item">
@@ -103,7 +124,7 @@
               </span>
             </span>
           
-            <span class="nav-item">
+            <span class="nav-item me-3">
               <span class="fa-stack">
                 <a href="">
                   <i class="fas fa-circle fa-stack-2x bg-social-icon"></i>
@@ -113,10 +134,8 @@
             </span>
           
             <!-- Button trigger modal -->
-             <div class="d-flex dcolumn">
-<button type="button" class="btn nav-cta" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Contact
-</button>
+            
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -145,7 +164,7 @@
     </div>
   </div>
 </div>
-</div>
+
 
           </div>
         </div>
