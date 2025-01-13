@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -16,10 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web&display=swap"
       rel="stylesheet"
     />
-
+   
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,67 +51,126 @@
     <!--navbar section-->
     <section class="top-bg-img">
       <nav
-        class="navbar navbar-expand-lg fixes-top navbar-dark bg-secondary nav-bg bg-opacity-75"
+        class="navbar navbar-expand-xl fixes-top navbar-toggle nav-bg bg-opacity-75"
       >
-        <div class="container">
+
+     
+      <div class="container">
+         
+          
           <a href="index.html" class="navbar-brand text-dark"
             ><span class="fw-semibold fs-2 me-4 dancing-script">Cakeland</span>
+          
             <img
               src="img/logo.png"
               alt="cakeland logo"
               width="
       100"
           /></a>
+      
+      </div>
+    
           <button
-            class="navbar-toggler"
+            class="navbar-toggler ms-3"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
           >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+      
+            
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item me-4">
-                <a href="index.html" class="nav-link fs-4 fw-semibold active"
+        </div>
+      </div>
+     </div>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item me-4 d-flex align-items-center">
+                <a href="#home" class="nav-link fs-4 fw-semibold active ms-3"
                   >Home</a
                 >
               </li>
-              <li class="nav-item me-4">
-                <a href="#flavours" class="nav-link fs-4 fw-semibold"
+              <li class="nav-item me-4 d-flex align-items-center">
+                <a href="#flavours" class="nav-link fs-4 fw-semibold ms-3"
                   >Flavours</a
                 >
               </li>
-              <li class="nav-item me-4">
+              <li class="nav-item me-4 d-flex align-items-center">
                 <a
-                  href="#portfolio"
-                  class="nav-link fs-4 fw-semibold text-secondary"
+                  href="#photos"
+                  class="nav-link fs-4 fw-semibold text-secondary ms-3"
                   >Photos</a
                 >
               </li>
-              <li class="nav-item me-4">
-                <a href="#testimonials" class="nav-link fs-4 fw-semibold"
+              <li class="nav-item me-4 d-flex align-items-center">
+                <a href="#testimonials" class="nav-link fs-4 fw-semibold ms-3"
                   >Testimonials</a
                 >
+              </li>
+              <li class="modal-button d-flex align-items-center">
+                <button type="button" class="btn modal-btn ms-3 me-4 border-white fs-5 fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Contact
+                </button>
               </li>
             </ul>
             <span class="nav-item">
               <span class="fa-stack">
-                <a href="">
-                  <i class="fas fa-circle fa-stack-2x bg-social-icon"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+                <a href="https://www.facebook.com/cakelandbyanitavenczel" target="_blank" class="">
+                  <i class="fas fa-circle fa-stack-2x bg-social-icon  ms-2"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x text-white ms-2"></i>
                 </a>
               </span>
             </span>
-            <span class="nav-item">
+          
+            <span class="nav-item me-3">
               <span class="fa-stack">
-                <a href="">
-                  <i class="fas fa-circle fa-stack-2x bg-social-icon"></i>
-                  <i class="fab fa-instagram fa-stack-1x text-white"></i>
+                <a href="https://www.instagram.com/cakelandbyanitavenczel/" target="_blank">
+                  <i class="fas fa-circle fa-stack-2x bg-social-icon ms-2"></i>
+                  <i class="fab fa-instagram fa-stack-1x text-white ms-2" ></i>
                 </a>
               </span>
             </span>
+<<<<<<< HEAD
             <button type="button" class="btn btn-secondary ms-3">Contact</button>
+=======
+          
+            <!-- Button trigger modal -->
+            
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          <i class="fas fa-home mr-3"></i> 26 Chestnut Grove,
+          Bridgemount <br />
+          Carrigaline, Co.Cork
+        </p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i>
+          cakelandbyanitavenczel@gmail.com
+        </p>
+        <p><i class="fas fa-phone mr-3"></i> + 353 087 063 1225</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+>>>>>>> 1bf6d0945e2f30af2ca5002dfce497f6e985f21d
           </div>
         </div>
       </nav>
@@ -151,8 +211,8 @@
     >
       <!--cake flavours-->
       <div class="container-fluid flex justyfy-content-center">
-        <div class="container-fluid">
-          <h3 class="text-start p-4 fw-semibold fs-2">FLAVOURS</h3>
+        <div class="container-fluid center-section-title">
+          <h3 class="text-sm-start text-center p-4 fw-semibold fs-2 " id="flavours">FLAVOURS</h3>
         </div>
 
         <div class="container">
@@ -325,7 +385,7 @@
     <!-- Gallerys-->
     <section class="gallery mt-4">
       <div class="container-fluid">
-        <h3 class="text-start p-4 fw-semibold fs-2">gallery</h3>
+        <h3 class="text-sm-start text-center p-4 fw-semibold fs-2" id="photos">Gallery</h3>
       </div>
 
       <div class="row">
@@ -383,7 +443,7 @@
 
     <!--testimonials carousel-->
     <div class="container-fluid bg-testimonials">
-      <h3 class="text-start p-4 fw-semibold fs-2">TESTIMONIALS</h3>
+      <h3 class="text-sm-start text-center mb-0 p-4 fw-semibold fs-2" id="testimonials">TESTIMONIALS</h3>
     </div>
     <div class="container-fluid bg-testimonials d-flex justify-content-center">
       <img class="testimonials_logo" src="img/logo.jpg" />
@@ -686,6 +746,7 @@
                 <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                   <!-- Facebook -->
                   <a
+                  href="https://www.facebook.com/cakelandbyanitavenczel" target="_blank" 
                     class="btn btn-outline-light btn-floating m-1"
                     class="text-white"
                     role="button"
@@ -694,6 +755,7 @@
 
                   <!-- Instagram -->
                   <a
+                  href="https://www.instagram.com/cakelandbyanitavenczel/" target="_blank"
                     class="btn btn-outline-light btn-floating m-1"
                     class="text-white"
                     role="button"

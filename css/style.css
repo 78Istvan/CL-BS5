@@ -44,6 +44,7 @@ body {
 }
 .bg-social-icon {
   color: #989258 !important;
+  border-style: #fff !important;
 }
 .hero-text {
   font-family: "Dancing Script", cursive;
@@ -165,3 +166,23 @@ body {
   height: 11rem;
   color: #fff;
 }
+/*modal contct button*/
+
+.modal-btn {
+  font-size: 1.3rem !important;
+  font-weight: 400 !important;
+  padding: 0.6rem 1.4rem !important;
+  border-radius: 9px !important;
+  background-color: #989258!important;
+  /* Only necessary for .btn */
+  border-style: #fff;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+  
+}
+
