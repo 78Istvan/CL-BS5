@@ -7,6 +7,9 @@
     width: 25rem;
     height: auto;
   }
+  .cupcake-flavours {
+    margin-top: 4rem;
+  }
 }
 @media (max-width: 586px) {
   .testimonials-text {
