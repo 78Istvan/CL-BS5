@@ -19,7 +19,7 @@
     />
    
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,7 +34,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
     />
 
-    <link rel="stylesheet" href="css/media.css" />
+    
     <title>CL-BS5</title>
     <link
       rel="stylesheet"
@@ -185,47 +185,42 @@
 
       <!--Gallery-->
 
+      
+          <div class="gallery-container">
+              <div class="gallery">
+                  <img src="img/cake-11.jpg" alt="Image 1" class="gallery-item">
+                  <img src="img/cake-12.webp" alt="Image 2" class="gallery-item">
+                  <img src="img/cake-13.png" alt="Image 3" class="gallery-item">
+                  <img src="img/cake-4.webp" alt="Image 4" class="gallery-item">
+                  <!-- Add more images as needed -->
+              </div>
+          </div>
+      
+          <!-- Lightbox Modal -->
+          <div id="lightbox" class="lightbox">
+              <span class="close" onclick="closeLightbox()">&times;</span>
+              <img id="lightbox-img" class="lightbox-content">
+              <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+              <a class="next" onclick="moveSlide(1)">&#10095;</a>
+          </div>
+      
+        
+      
+        
+          <!-- Add more images as needed -->
+      
+      
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+          <span id="close" class="close-btn">&times;</span>
+          <img id="lightbox-image" src="" alt="Full Size Image">
+        </div>
+      
+        
+      
 
-
-  <div class="gallery-container container-fluid mb-3">
-    <div class="gallery-item">
-      <img src="img/cake-10.jpg" alt="Image 1" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="img/cake-6.jpg" alt="Image 2" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="image3.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="img/cake-7.webp" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="img/cake-8 2.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="img/cake-8.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-        <img src="img/cake-10.jpg" alt="Image 1" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="img/cake-6.jpg" alt="Image 2" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="image3.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="img/cake-7.webp" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="img/cake-8 2.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="img/cake-8.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
     <!-- Add more images as needed -->
-  </div>
+ 
 
   <!-- Modal -->
   <div id="modal" class="modal">
@@ -239,43 +234,7 @@
   </div>
 
 
-  <div class="gallery-container container-fluid mb-3">
-    <div class="gallery-item">
-      <img src="img/cake-10.jpg" alt="Image 1" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="img/cake-6.jpg" alt="Image 2" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="image3.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="img/cake-7.webp" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="img/cake-8 2.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-      <img src="img/cake-8.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-    </div>
-    <div class="gallery-item">
-        <img src="img/cake-10.jpg" alt="Image 1" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="img/cake-6.jpg" alt="Image 2" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="image3.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="img/cake-7.webp" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="img/cake-8 2.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
-      <div class="gallery-item">
-        <img src="img/cake-8.jpg" alt="Image 3" class="shadow-1-strong rounded mb-4 gallery-image gallery-img">
-      </div>
+  
     <!-- Add more images as needed -->
   </div>
 
@@ -438,7 +397,7 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
     ></script>
-
+    <script src="js/gallery.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/script.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
