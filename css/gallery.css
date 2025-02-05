@@ -87,3 +87,15 @@ body {
 .next {
   right: 0;
 }
+bottom-img {
+    padding: 0 !important;
+  }
+  /*footer*/
+  
+  .footer {
+    padding: 0 !important;
+  }
+  .footer-img {
+    height: 11rem;
+    color: #fff;
+  }
