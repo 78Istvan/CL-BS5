@@ -25,9 +25,19 @@
     margin-top: 4rem;
   }
 }
+@media (max-width: 845px) {
+  .top-hero-sec {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 586px) {
   .testimonials-text {
     max-width: 100%;
+  }
+  .testimonials-text-container {
+    height: 13rem;
   }
 }
 
@@ -50,5 +60,11 @@
   body {
     margin: 0;
   }
-  
+  .testimonials-text-container {
+    height: 15rem;
+  }
+  .top-hero-sec {
+    display: flex;
+    flex-direction: column;
+  }
 }
