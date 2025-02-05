@@ -1,0 +1,70 @@
+@media (max-width: 1200px) {
+  .modal-btn {
+    margin: 0 0 1rem 1rem !important;
+    padding: 0;
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+    padding: 0.4rem 1.6rem !important;
+    border-radius: 9px !important;
+    background-color: #989258!important;
+    color: #fff;
+    
+    }
+}
+
+@media (max-width: 996px) {
+  .pinguin-img {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .img-hero {
+    width: 25rem;
+    height: auto;
+  }
+  .cupcake-flavours {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 845px) {
+  .top-hero-sec {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 586px) {
+  .testimonials-text {
+    max-width: 100%;
+  }
+  .testimonials-text-container {
+    height: 13rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .img-hero {
+    max-width: 100%;
+    height: auto;
+  }
+  .modal-btn {
+  margin: 0 0 1rem 0.8rem !important;
+  padding: 0;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  padding: 0.4rem 1.6rem !important;
+  border-radius: 9px !important;
+  background-color: #989258!important;
+  color: #fff;
+  
+  }
+  body {
+    margin: 0;
+  }
+  .testimonials-text-container {
+    height: 15rem;
+  }
+  .top-hero-sec {
+    display: flex;
+    flex-direction: column;
+  }
+}

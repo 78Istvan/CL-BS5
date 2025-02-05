@@ -1,31 +1,17 @@
-// JavaScript for the Lightbox functionality
-let currentIndex = 0;
-
-const galleryItems = document.querySelectorAll('.gallery-item');
+// Get all the gallery images and the lightbox elements
+const images = document.querySelectorAll('.gallery-item img');
 const lightbox = document.getElementById('lightbox');
-const lightboxImg = document.getElementById('lightbox-img');
+const lightboxImage = document.getElementById('lightboxImage');
 
-// Open lightbox with clicked image
-galleryItems.forEach((item, index) => {
-    item.addEventListener('click', () => {
-        currentIndex = index;
-        openLightbox();
-    });
+// Add click event to each image to show it in the lightbox
+images.forEach(image => {
+  image.addEventListener('click', () => {
+    lightbox.style.display = 'flex';
+    lightboxImage.src = image.src;
+  });
 });
 
-// Open lightbox and show current image
-function openLightbox() {
-    lightbox.style.display = 'flex';
-    lightboxImg.src = galleryItems[currentIndex].src;
-}
-
-// Close lightbox
+// Function to close the lightbox
 function closeLightbox() {
-    lightbox.style.display = 'none';
-}
-
-// Move to previous or next image
-function moveSlide(direction) {
-    currentIndex = (currentIndex + direction + galleryItems.length) % galleryItems.length;
-    lightboxImg.src = galleryItems[currentIndex].src;
+  lightbox.style.display = 'none';
 }
