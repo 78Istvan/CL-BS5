@@ -59,13 +59,17 @@
   .testimonials-text-container {
     height: 13rem;
   }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 545px) {
   .gallery {
     grid-template-columns: 1fr;
   }
-  .gallery-item {
+  .gallery-item img {
     width: 100%;
     height: auto;
   }
