@@ -1,7 +1,12 @@
-@media (max-width: 1690px) {
+@media (max-width: 1610px) {
   .gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (max-width: 1345px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -15,6 +20,9 @@
     border-radius: 9px !important;
     background-color: #989258 !important;
     color: #fff;
+  }
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -31,6 +39,12 @@
     margin-top: 4rem;
   }
 }
+@media (max-width: 875px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 845px) {
   .top-hero-sec {
     display: flex;
@@ -44,6 +58,12 @@
   }
   .testimonials-text-container {
     height: 13rem;
+  }
+}
+
+@media (max-width: 545px) {
+  .gallery {
+    grid-template-columns: 1fr;
   }
 }
 
