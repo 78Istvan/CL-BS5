@@ -28,6 +28,10 @@
   color: #989258 !important;
   border-style: #fff !important;
 }
+/*dropdown section*/
+.dropdown {
+  background-color: #989258;
+}
 
 /* General Reset */
 * {
