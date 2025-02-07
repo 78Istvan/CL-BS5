@@ -30,7 +30,7 @@
 }
 /*dropdown section*/
 .dropdown {
-  background-color: #989258;
+  background-color: #c6ad44;
 }
 
 /* General Reset */
@@ -54,7 +54,7 @@ body {
 }
 
 .gallery-item img {
-  width: 15rem;
+  width: 20rem;
   height: 15rem;
   border-radius: 8px;
   cursor: pointer;
