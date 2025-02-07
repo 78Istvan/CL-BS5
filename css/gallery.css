@@ -1,3 +1,11 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  max-width: 120rem;
+  padding: 0;
+  margin: 0 auto;
+}
 /*navbar styling*/
 .dancing-script {
   font-family: "Dancing Script", cursive;
@@ -34,19 +42,9 @@
 }
 
 /* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  max-width: 120rem;
-  padding: 0;
-  margin: 0 auto;
-}
+
+
 
 .gallery {
   display: grid;
@@ -57,7 +55,7 @@ body {
 }
 
 .gallery-item img {
-  width: 20rem;
+  width: 19rem;
   height: 15rem;
   border-radius: 8px;
   cursor: pointer;
