@@ -95,7 +95,7 @@
   }
 }
 @media (max-width: 377px) {
-  .head-title {
+  .hero-sm-screen {
     display: flex;
     flex-direction: column;
   }
