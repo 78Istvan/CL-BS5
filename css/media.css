@@ -94,3 +94,9 @@
     flex-direction: column;
   }
 }
+@media (max-width: 377px) {
+  .head-title {
+    display: flex;
+    flex-direction: column;
+  }
+  }
