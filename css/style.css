@@ -33,6 +33,7 @@ body {
 }
 
 .nav-bg {
+  
   background: rgb(252, 252, 251);
   background: linear-gradient(
     90deg,
@@ -40,6 +41,8 @@ body {
     rgba(198, 173, 68, 1) 100%,
     rgba(0, 0, 0, 1) 100%
   );
+  
+ 
 }
 .nav-link {
   color: #141414 !important;
