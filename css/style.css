@@ -47,6 +47,10 @@ body {
 .nav-link {
   color: #141414 !important;
 }
+.menu-line {
+  background-color: #c6ad44;
+}
+
 .bg-social-icon {
   color: #989258 !important;
   border-style: #fff !important;
