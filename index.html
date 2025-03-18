@@ -387,11 +387,11 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 gallery-item ">
         
           <img
             src="img/mix /face-img-1 2.jpg"
-            class="w-100 shadow-1-strong rounded mb-4 gallery-item"
+            class="w-100 shadow-1-strong rounded mb-4 "
             alt="number-1"
           />
 
@@ -405,7 +405,7 @@
 
        
 
-        <div class="col-lg-4 mb-4 mb-lg-0 ">
+        <div class="col-lg-4 mb-4 mb-lg-0 gallery-item ">
 
           <img
             src="img/mix /insts-img-1.jpg"
@@ -422,7 +422,7 @@
         
         </div>
 
-        <div class="col-lg-4 mb-4 mb-lg-0 ">
+        <div class="col-lg-4 mb-4 mb-lg-0 gallery-item ">
        
           <img
             src="img/mix /face-cake-9 2.jpg"
@@ -795,6 +795,55 @@
       </div>
       <!-- End of .container -->
     </section>
+    <!--pop out image -->
+    <script>
+      const galleryItems = document.querySelectorAll(".gallery-item img");
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.querySelector(".lightbox-image");
+const closeBtn = document.querySelector(".lightbox .close");
+const prevBtn = document.querySelector(".lightbox .prev");
+const nextBtn = document.querySelector(".lightbox .next");
+
+let currentIndex = 0;
+
+// Open lightbox
+galleryItems.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    currentIndex = index;
+    showImage();
+    lightbox.style.display = "flex";
+  });
+});
+
+// Show image in lightbox
+function showImage() {
+  lightboxImage.src = galleryItems[currentIndex].src;
+}
+
+// Close lightbox
+closeBtn.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
+
+// Navigate to previous image
+prevBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+  showImage();
+});
+
+// Navigate to next image
+nextBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % galleryItems.length;
+  showImage();
+});
+
+// Close lightbox on outside click
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) {
+    lightbox.style.display = "none";
+  }
+});
+    </script>
     <!--scrol up button-->
     <button id="scrollBtn" onclick="scrollToTop()">&uarr;</button>
     <script>
