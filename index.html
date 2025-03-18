@@ -48,6 +48,7 @@
     />
   </head>
   <body>
+    
     <!--navbar section-->
     <section class="top-bg-img">
       <nav
@@ -109,7 +110,7 @@
                 <a
                   href="#price"
                   class="nav-link fs-4 text-secondary ms-3"
-                  >Price Guide</a
+                  >PriceGuide</a
                 >
               </li>
               <li class="nav-item me-4 d-flex align-items-center">
@@ -117,12 +118,7 @@
                   >Testimonials</a
                 >
               </li>
-            
             </ul>
-            
-          
-           
-            
           </div>
         </div>
       </nav>
@@ -694,7 +690,7 @@
                   <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
                   <p>
                     <a class="text-white text-decoration-none"
-                      >Celebration cakes</a
+                      >Cakes</a
                     >
                   </p>
                   <p>
@@ -799,7 +795,28 @@
       </div>
       <!-- End of .container -->
     </section>
-
+    <!--scrol up button-->
+    <button id="scrollBtn" onclick="scrollToTop()">&uarr;</button>
+    <script>
+      const scrollBtn = document.getElementById('scrollBtn');
+  
+      // Show button when user scrolls down 200px
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+          scrollBtn.style.display = 'block';
+        } else {
+          scrollBtn.style.display = 'none';
+        }
+      });
+  
+      // Scroll smoothly to the top
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.6.4.min.js"
       integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="

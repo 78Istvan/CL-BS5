@@ -25,3 +25,23 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 console.log("Hello world!");
+
+//scroll up button
+const scrollBtn = document.getElementById('scrollBtn');
+
+// Show button when user scrolls down 200px
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 200) {
+    scrollBtn.style.display = 'block';
+  } else {
+    scrollBtn.style.display = 'none';
+  }
+});
+
+// Scroll smoothly to the top
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
