@@ -28,7 +28,7 @@ body {
   font-size: 3rem !important;
 }
 .top-bg-img {
-  background: url(../img/backgroung-image.avif) center center no-repeat;
+  background: url(../img/background-image/backgroung-image.avif) center center no-repeat;
   background-size: cover;
 }
 
