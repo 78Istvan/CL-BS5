@@ -63,7 +63,7 @@
             ><span class="fw-semibold fs-2 me-4 dancing-script">Cakeland</span>
           
             <img
-              src="img/mix /logo.png"
+              src="img/mix/logo.png"
               alt="cakeland logo"
               width="
       100"
@@ -172,7 +172,51 @@
     </a>
   </span>
 </span>
+<div class="container text-end mt-3">
+  <button class="btn text-white" data-bs-toggle="modal" data-bs-target="#adminLoginModal">Admin Login</button>
+</div>
+
  </div>
+
+<!-- Button to Open Admin Login Modal -->
+
+<!--test-->
+<!-- Admin Login Modal -->
+<div class="modal fade" id="adminLoginModal" tabindex="-1" aria-labelledby="adminLoginLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="adminLoginLabel">Admin Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="adminLoginForm">
+          <div class="mb-3">
+            <label for="adminUsername" class="form-label">Username</label>
+            <input type="text" class="form-control" id="adminUsername" required />
+          </div>
+          <div class="mb-3">
+            <label for="adminPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="adminPassword" required />
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--test-->
+<!-- Upload Section (Hidden by Default) -->
+<div id="uploadSection" class="container mt-4" style="display: none;">
+  <h3>Upload Header Image</h3>
+  <form id="uploadForm">
+    <div class="mb-3">
+      <label for="headerImage" class="form-label">Select Image</label>
+      <input type="file" class="form-control" id="headerImage" accept="image/*" required />
+    </div>
+    <button type="submit" class="btn btn-success">Upload</button>
+  </form>
+</div>
 
 
       <!--header-->
@@ -194,7 +238,7 @@
           </div>
           <div class="col col-xs-12 pinguin-img">
             <img
-              src="img/mix /cake-01.jpg"
+              src="img/mix/cake-01.jpg"
               alt="cake-4"
               class="img-fliud img-hero py-5 rounded pinguin"
             />
@@ -222,17 +266,17 @@
                       <div class="row">
                       <div class="col flavours-img ">
                         <img
-                          src="img/mix /cake-4.webp"
+                          src="img/mix/cake-4.webp"
                           class="w-100 shadow-1-strong rounded"
                         />
                       </div>
                       <div class="col flavours-img "><img
-                        src="img/mix /cake-7.webp"
+                        src="img/mix/cake-7.webp"
                         class="w-100 shadow-1-strong rounded "
                       />
                     </div>
                     <div class="col flavours-img "><img
-                      src="img/mix /cake-squareslice.jpeg"
+                      src="img/mix/cake-squareslice.jpeg"
                       class="w-100 shadow-1-strong rounded"
                     />
                   </div>
@@ -312,17 +356,17 @@
                   <div class="row">
                   <div class="col flavours-img ">
                     <img
-                      src="img/mix /three-cup-1.jpeg"
+                      src="img/mix/three-cup-1.jpeg"
                       class="w-100 shadow-1-strong rounded "
                     />
                   </div>
                   <div class="col flavours-img "><img
-                    src="img/mix /three-cup-2.JPG"
+                    src="img/mix/three-cup-2.JPG"
                     class="w-100 shadow-1-strong rounded "
                   />
                 </div>
                 <div class="col flavours-img "><img
-                  src="img/mix /three-cup-3.jpg"
+                  src="img/mix/three-cup-3.jpg"
                   class="w-100 shadow-1-strong rounded"
                 />
               </div>
@@ -390,13 +434,13 @@
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 gallery-item ">
         
           <img
-            src="img/mix /face-img-1 2.jpg"
+            src="img/mix/face-img-1 2.jpg"
             class="w-100 shadow-1-strong rounded mb-4 "
             alt="number-1"
           />
 
           <img
-            src="img/mix /face-cukepop-3 2.jpg"
+            src="img/mix/face-cukepop-3 2.jpg"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="number-2"
           />
@@ -408,14 +452,14 @@
         <div class="col-lg-4 mb-4 mb-lg-0 gallery-item ">
 
           <img
-            src="img/mix /insts-img-1.jpg"
+            src="img/mix/insts-img-1.jpg"
             class="w-100 shadow-1-strong rounded mb-4 "
             alt="number-3"
           />
        
         
           <img
-            src="img/mix /face-cake-4 2.jpg"
+            src="img/mix/face-cake-4 2.jpg"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="number-4"
           />
@@ -425,13 +469,13 @@
         <div class="col-lg-4 mb-4 mb-lg-0 gallery-item ">
        
           <img
-            src="img/mix /face-cake-9 2.jpg"
+            src="img/mix/face-cake-9 2.jpg"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="number-5"
           />
          
           <img
-            src="img/mix /face-cupcake-7 2.jpg"
+            src="img/mix/face-cupcake-7 2.jpg"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="number-6"
           />
@@ -459,7 +503,7 @@
   <p class="text-center fs-5">Cakepops are from €25 for 10</p>
 </div>
 <div class="text-center">
-  <img src="img/mix /sizeguide-img.avif" class="img-fluid" alt="...">
+  <img src="img/mix/sizeguide-img.avif" class="img-fluid" alt="...">
 </div>
 </div>
 
@@ -468,7 +512,7 @@
       <h3 class="text-sm-start text-center mb-0 p-4 fw-semibold fs-2" id="testimonials">TESTIMONIALS</h3>
     </div>
     <div class="container-fluid bg-testimonials d-flex justify-content-center">
-      <img class="testimonials_logo" src="img/mix /logo.jpg" />
+      <img class="testimonials_logo" src="img/mix/logo.jpg" />
     </div>
     
    
@@ -617,7 +661,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active" data-mdb-interval="100">
           <img
-            src="img/mix /inst-img-4 2.jpg"
+            src="img/mix/inst-img-4 2.jpg"
             class="d-block w-100"
             alt="Wild Landscape"
           />

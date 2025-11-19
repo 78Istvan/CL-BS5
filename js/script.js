@@ -1,6 +1,3 @@
-
-
-
 // increase image size onclick
 var fullImgBox = document.getElementById("fullImgBox");
 var fullImg = document.getElementById("fullImg");
@@ -27,14 +24,14 @@ for (var i = 0; i < btns.length; i++) {
 console.log("Hello world!");
 
 //scroll up button
-const scrollBtn = document.getElementById('scrollBtn');
+const scrollBtn = document.getElementById("scrollBtn");
 
 // Show button when user scrolls down 200px
-window.addEventListener('scroll', () => {
+window.addEventListener("scroll", () => {
   if (window.scrollY > 200) {
-    scrollBtn.style.display = 'block';
+    scrollBtn.style.display = "block";
   } else {
-    scrollBtn.style.display = 'none';
+    scrollBtn.style.display = "none";
   }
 });
 
@@ -42,7 +39,7 @@ window.addEventListener('scroll', () => {
 function scrollToTop() {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth'
+    behavior: "smooth",
   });
 }
 //image pop out
@@ -90,5 +87,47 @@ nextBtn.addEventListener("click", () => {
 lightbox.addEventListener("click", (e) => {
   if (e.target === lightbox) {
     lightbox.style.display = "none";
+  }
+});
+
+// Admin Login Logic
+const adminLoginForm = document.getElementById("adminLoginForm");
+const uploadSection = document.getElementById("uploadSection");
+
+const adminCredentials = {
+  username: "admin",
+  password: "password123", // Replace with a secure password
+};
+
+adminLoginForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const username = document.getElementById("adminUsername").value;
+  const password = document.getElementById("adminPassword").value;
+
+  if (
+    username === adminCredentials.username &&
+    password === adminCredentials.password
+  ) {
+    alert("Login successful!");
+    uploadSection.style.display = "block";
+    const adminLoginModal = new bootstrap.Modal(
+      document.getElementById("adminLoginModal")
+    );
+    adminLoginModal.hide();
+  } else {
+    alert("Invalid credentials!");
+  }
+});
+
+// Upload Image Logic
+const uploadForm = document.getElementById("uploadForm");
+uploadForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const headerImage = document.getElementById("headerImage").files[0];
+  if (headerImage) {
+    alert(`Image "${headerImage.name}" uploaded successfully!`);
+    // Add logic to save the image to the server or update the header dynamically
+  } else {
+    alert("Please select an image!");
   }
 });
